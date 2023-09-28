@@ -1,0 +1,6 @@
+class: Todo
+table: todos
+fields:
+  user_id: int, parent=serverpod_user_info
+  title: String
+  completed: bool
